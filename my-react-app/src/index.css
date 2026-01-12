@@ -1,0 +1,22 @@
+@import "./styles/theme.css";
+
+button {
+  background-color: var(--primary);
+  color: var(--bg);
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+input, select {
+  background-color: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--primary);
+  padding: 6px;
+  border-radius: 4px;
+}
